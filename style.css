@@ -1,0 +1,40 @@
+
+body {
+    background-image: url(UB-Paciente.jpg);
+}
+table{
+    width: 100%;
+    border-collapse: collapse;
+    border: 2px solid;
+    width: 50%;
+    margin-top: 20px;
+    margin-left: 25%;
+}
+
+
+
+thead th {
+    background-color: #646464;
+    padding: 10px;
+    text-align: left;
+    color: rgb(0, 0, 0);
+}
+
+
+td{
+    background-color: rgba(118, 253, 255, 0.639);
+    padding: 10px;
+    color: #000000;
+    border: 2px solid;
+}
+
+
+tbody tr:hover {
+    background-color: #9500ff;
+    transition: background-color 0.2s ease;
+}
+h1 {
+    text-align: center;
+    color:#000000;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
